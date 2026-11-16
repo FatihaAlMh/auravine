@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2a1659" />
+      <stop offset="100%" stop-color="#070412" />
+    </radialGradient>
+    <linearGradient id="petal" x1="16" y1="8" x2="48" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e9d5ff" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#bg)" />
+  <g transform="translate(32 33)">
+    <!-- 6-petal lily bloom -->
+    <path d="M0 -22 C6 -14 6 -4 0 0 C-6 -4 -6 -14 0 -22Z" fill="url(#petal)" opacity="0.95" />
+    <path d="M0 -22 C6 -14 6 -4 0 0 C-6 -4 -6 -14 0 -22Z" fill="url(#petal)" opacity="0.85" transform="rotate(60)" />
+    <path d="M0 -22 C6 -14 6 -4 0 0 C-6 -4 -6 -14 0 -22Z" fill="url(#petal)" opacity="0.85" transform="rotate(120)" />
+    <path d="M0 -22 C6 -14 6 -4 0 0 C-6 -4 -6 -14 0 -22Z" fill="url(#petal)" opacity="0.85" transform="rotate(180)" />
+    <path d="M0 -22 C6 -14 6 -4 0 0 C-6 -4 -6 -14 0 -22Z" fill="url(#petal)" opacity="0.85" transform="rotate(240)" />
+    <path d="M0 -22 C6 -14 6 -4 0 0 C-6 -4 -6 -14 0 -22Z" fill="url(#petal)" opacity="0.85" transform="rotate(300)" />
+    <!-- Glowing stamen core & particle dust -->
+    <circle cx="0" cy="0" r="6" fill="url(#core)" />
+    <circle cx="0" cy="0" r="2.2" fill="#fef9c3" />
+    <circle cx="-13" cy="-16" r="1.1" fill="#e9d5ff" opacity="0.85" />
+    <circle cx="15" cy="-12" r="1" fill="#7dd3fc" opacity="0.85" />
+    <circle cx="11" cy="17" r="1.1" fill="#c084fc" opacity="0.8" />
+    <circle cx="-14" cy="14" r="0.9" fill="#fde68a" opacity="0.8" />
+  </g>
+</svg>
